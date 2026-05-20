@@ -61,7 +61,7 @@ The app is deployed using **Streamlit Cloud**.
 To run locally:
 
 ```bash
-git clone https://github.com/your-username/ipl-predictor.git
+git clone [https://github.com/your-username/ipl-predictor.git]
 cd ipl-predictor
 pip install -r requirements.txt
 streamlit run app.py
