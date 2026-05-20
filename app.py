@@ -39,16 +39,16 @@ team_name_map = {
 
 # -------------------- TEAM LOGOS --------------------
 team_logos = {
-    "Mumbai Indians": "images/mi.png",
-    "Chennai Super Kings": "images/csk.png",
-    "Royal Challengers Bangalore": "images/rcb.png",
-    "Kolkata Knight Riders": "images/kkr.png",
-    "Delhi Capitals": "images/dc.png",
-    "Sunrisers Hyderabad": "images/srh.png",
-    "Rajasthan Royals": "images/rr.png",
+    "Mumbai Indians": "mi.png",
+    "Chennai Super Kings": "csk.png",
+    "Royal Challengers Bangalore": "rcb.png",
+    "Kolkata Knight Riders": "kkr.png",
+    "Delhi Capitals": "dc.png",
+    "Sunrisers Hyderabad": "srh.png",
+    "Rajasthan Royals": "rr.png",
     "Punjab Kings": "images/pbks.png",
-    "Lucknow Super Giants": "images/lsg.png",
-    "Gujarat Titans": "images/gt.png"
+    "Lucknow Super Giants": "lsg.png",
+    "Gujarat Titans": "gt.png"
 }
 
 # -------------------- PAGE CONFIG --------------------
@@ -64,7 +64,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # -------------------- IPL LOGO --------------------
-img = get_image_base64("images/ipl.png")
+img = get_image_base64("ipl.png")
 st.markdown(f"""
 <div style='text-align:center; margin-top:-5px;'>
     <img src='data:image/png;base64,{img}' width='120'/>
